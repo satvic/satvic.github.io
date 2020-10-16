@@ -11,7 +11,7 @@ a {
   color: black!important;
   border: 3px solid transparent;
   font-size: 18px;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 ul a:hover{
@@ -40,6 +40,13 @@ section div.col-md-7, div.col-md-4{
   background-color: #CEE5F2; 
   box-shadow: 5px 5px 10px #3e98cc,
               5px 3px 10px #ffffff;
+
+}
+
+section div.col-md-7:hover, div.col-md-4:hover{
+  box-shadow: 20px 20px 50px #3e98cc,
+              0px 0px 0px #ffffff;
+              
 }
 .list-group-item{
   background-color: #ffffff;
@@ -59,7 +66,6 @@ section ul{
   transform: scaleX(1.01);
   
 }
-
 
 .list-group-item:hover{
   border-bottom: #007bff solid 2px;
