@@ -7,7 +7,6 @@ body {
 }
 
 a {
-  text-align: center;
   color: black!important;
   border: 3px solid transparent;
   font-size: 18px;
@@ -22,7 +21,6 @@ ul a:hover{
 }
 
 .active {
-  background-color: transparent!important;
   color: #000000!important;
   border-bottom: #007bff solid 3px;
   opacity: 1;
@@ -30,7 +28,7 @@ ul a:hover{
 }
 
 section div.text-center {
-  margin-top: 2em;
+  margin-top: 3em;
 }
 
 section div.col-md-7, div.col-md-4{
@@ -48,18 +46,14 @@ section div.col-md-7:hover, div.col-md-4:hover{
               0px 0px 0px #ffffff;
               
 }
+
 .list-group-item{
   background-color: #ffffff;
   border-bottom: solid 2px transparent;
   opacity: 0.7;
 }
 
-section ul{
-
-  height: auto;
-
-}
-
+/* Skills*/
 .list-group-item:first-child{
   color: #ffffff;
   opacity: 1;
@@ -67,6 +61,7 @@ section ul{
   
 }
 
+/*Skill items*/
 .list-group-item:hover{
   border-bottom: #007bff solid 2px;
   background: #ffffff;
