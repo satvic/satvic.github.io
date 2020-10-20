@@ -1,13 +1,16 @@
 body {
-  position: relative;
-  min-height: 100vh;
+  position: sticky;
+  min-height: 98vh;
   background: linear-gradient(2deg, #3e98cc, #cee5f2);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding: 1.5em 0;
+  margin: 1.5em 1.5em;
 }
 
+.navbar-toggler:focus{
+  outline: 0;
+}
 nav a {
   color: black !important;
   border: 3px solid transparent;
@@ -77,13 +80,16 @@ div.col-md-4:hover {
 
 .art {
   position: relative;
-  width: 15em;
+  width: 16em;
   height: 4em;
   margin: 0 2em;
   padding: 2em 0;
   border-radius: 0.6em;
-  box-shadow: 0 10px 10px 0 #3e98cc;
-  
+  box-shadow: 0 5px 5px 0 #3e98cc;
+}
+
+.art:hover{
+  box-shadow: 5px 10px 10px 1px#3e98cc;
 }
 
 img {
@@ -106,6 +112,12 @@ img {
   border: 0;
   cursor: pointer;
   margin: 0 0.2em;
+  opacity: 0.6;
+  font-size: 1.3em;
+}
+
+.controls:focus{
+  outline: 0;
 }
 
 footer{
