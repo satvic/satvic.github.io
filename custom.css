@@ -1,79 +1,116 @@
 body {
-  background: linear-gradient(2deg, #3e98cc, #CEE5F2);
+  position: relative;
+  min-height: 100vh;
+  background: linear-gradient(2deg, #3e98cc, #cee5f2);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding: 1em 1em;
+  padding: 1.5em 0;
 }
 
 nav a {
-  color: black!important;
+  color: black !important;
   border: 3px solid transparent;
   font-size: 18px;
   opacity: 0.6;
 }
 
-footer a{
-  color: black!important;
+footer a {
+  color: black !important;
   opacity: 0.6;
 }
 
-footer a:hover{
+footer a:hover {
   opacity: 0.9;
 }
 
-ul a:hover{
-  color:#000000;
+ul a:hover {
+  color: #000000;
   border-bottom: #007bff solid 3px;
   opacity: 1;
-
 }
 
 .active {
-  color: #000000!important;
+  color: #000000 !important;
   border-bottom: #007bff solid 3px;
   opacity: 1;
-
 }
 
 section div.text-center {
   margin-top: 3em;
 }
 
-section div.col-md-7, div.col-md-4{
+section div.col-md-7,
+div.col-md-4 {
   padding: 2em 1.25em 1.25em 1.25em;
-  color:#000000;
+  color: #000000;
   border-radius: 0.25em;
-  background-color: #CEE5F2; 
-  box-shadow: 5px 5px 10px #3e98cc,
-              5px 3px 10px #ffffff;
-
+  background-color: #cee5f2;
+  box-shadow: 5px 5px 10px #3e98cc, 5px 3px 10px #ffffff;
 }
 
-section div.col-md-7:hover, div.col-md-4:hover{
-  box-shadow: 20px 20px 50px #3e98cc,
-              0px 0px 0px #ffffff;
-              
+section div.col-md-7:hover,
+div.col-md-4:hover {
+  box-shadow: 20px 20px 50px #3e98cc, 0px 0px 0px #ffffff;
 }
 
-.list-group-item{
+.list-group-item {
   background-color: #ffffff;
   border-bottom: solid 2px transparent;
   opacity: 0.7;
 }
 
 /* Skills*/
-.list-group-item:first-child{
+.list-group-item:first-child {
   color: #ffffff;
   opacity: 1;
   transform: scaleX(1.01);
-  
 }
 
 /*Skill items*/
-.list-group-item:hover{
+.list-group-item:hover {
   border-bottom: #007bff solid 2px;
   background: #ffffff;
   transform: scaleX(1.01);
   opacity: 1;
+}
+
+.art {
+  position: relative;
+  width: 15em;
+  height: 4em;
+  margin: 0 2em;
+  padding: 2em 0;
+  border-radius: 0.6em;
+  box-shadow: 0 10px 10px 0 #3e98cc;
+  
+}
+
+img {
+  object-fit: cover;
+  position: absolute;
+  height: 6em;
+  left: 0;
+  bottom: 0;
+}
+
+.control-container {
+  width: auto;
+  position: absolute;
+  bottom: 1em;
+  right: 1.4em;
+}
+
+.controls {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  margin: 0 0.2em;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  height: 0.5rem;
+  width: 100%;
 }
