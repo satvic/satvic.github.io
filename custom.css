@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(2deg, #3e98cc, #cee5f2);
+  background: linear-gradient(3deg, #3e98cc, #cee5f2);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -122,10 +122,9 @@ nav button:focus {
 /*positon footer*/
 footer {
   clear: both;
-  position: relative;
   bottom: 0;
   width: 100%;
-  margin-top: 10em;
+  margin-top: 45vh;
 }
 
 .audio-info {
