@@ -45,7 +45,7 @@ section div.text-center {
 }
 
 section div.col-md-7,
-div.col-md-4 {
+div.col-md-4, .card {
   padding: 2em 1.25em 1.25em 1.25em;
   color: #000000;
   border-radius: 0.25em;

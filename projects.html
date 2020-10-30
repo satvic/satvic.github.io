@@ -14,6 +14,7 @@
     <meta name="msapplication-navbutton-color" content="#3e98cc" />
     <!-- iOS Safari -->
     <meta name="apple-mobile-web-app-status-bar-style" content="#3e98cc" />
+
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -31,14 +32,11 @@
     <!--Custom CSS-->
     <link rel="stylesheet" href="custom.css" type="text/css" />
     <title>Satvik Srivastava</title>
-
-    <!--fontawesome-->
     <script
       src="https://kit.fontawesome.com/8fd5edce53.js"
       crossorigin="anonymous"
     ></script>
   </head>
-
   <body>
     <header></header>
     <nav class="navbar-nav navbar-expand-md">
@@ -62,10 +60,10 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="projects.html">Projects</a>
+            <a class="nav-link active" href="#">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Hobbies</a>
+            <a class="nav-link" href="hobbies.html">Hobbies</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Get in touch!</a>
@@ -73,49 +71,18 @@
         </ul>
       </div>
     </nav>
-
     <section>
-      <div class="container">
-        <div class="col-12 text-center">
-          <i class="fas fa-guitar fa-3x"></i>
-          <h1 class="display-5">Guess what!</h1>
-          <p class="lead">
-            I play an acoustic guitar too,<br />
-            You can enjoy my recordings here...
-          </p>
-        </div>
-      </div>
-      <div class="container audio-container text-center" id="audio-container">
-        <audio src="music/cover1.mp3" id="audio"></audio>
-        <!--Artwork-->
-        <div class="art mx-auto" id="art">
-          <img src="imgs/vinyl.png" alt="artwork" />
-
-          <!--Controls-->
-          <div class="control-container">
-            <button class="controls" id="prev">
-              <i class="fas fa-backward"></i>
-            </button>
-            <button class="controls" id="play">
-              <i class="fas fa-play"></i>
-            </button>
-            <button class="controls" id="next">
-              <i class="fas fa-forward"></i>
-            </button>
-          </div>
-        </div>
-        <!--Info-->
-        <div class="audio-info mx-auto py-1">
-          <h4 id="title"></h4>
-          <div class="progress" id="progress">
-            <div
-              class="progress-bar"
-              id="progress-bar"
-              role="progressbar"
-              aria-valuenow="10"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
+      <div class="container d-flex justify-content-center mt-5">
+        <div class="card" style="width: 18rem">
+          <div class="card-body">
+            <h5 class="card-title">Music Player</h5>
+            <h6 class="card-subtitle mb-2 text-muted">JavaScript</h6>
+            <p class="card-text">
+              A simple HTML5 audio player with play/pause, next/prev
+              functionality.
+            </p>
+            <a href="hobbies.html" class="card-link">View Project</a>
+            <a href="https://github.com/satvic/satvic.github.io/blob/main/hobbies.html" class="card-link">View Code</a>
           </div>
         </div>
       </div>
@@ -150,8 +117,9 @@
       <!-- Footer Elements -->
 
       <!-- Copyright -->
-      <div class="text-center">
+      <div class="footer-copyright text-center">
         <p>&copy; 2020 Copyright: Satvik Srivastava</p>
+        <!-- Copyright -->
         <p>
           Icons made by
           <a href="https://www.flaticon.com/authors/freepik" title="Freepik"
@@ -161,8 +129,6 @@
           <a href="https://www.flaticon.com/" title="Flaticon">Flaticon</a>
         </p>
       </div>
-
-      <!-- Copyright -->
     </footer>
     <!-- Footer -->
 
@@ -173,17 +139,15 @@
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
-    <script
+    <s
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
       integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
       crossorigin="anonymous"
-    ></script>
-    <script
+    ></s>
+    <s
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
-    ></script>
-    <script src="custom.js"></script>
+    ></s>
   </body>
-  
 </html>
